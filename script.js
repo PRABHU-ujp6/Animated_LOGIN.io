@@ -11,8 +11,5 @@ function login(){
         loginMessage.innerHTML = "Login Failed. Please Check Your Username and Password...";
         loginMessage.style.color = "red";
     }
-
     alert(`Login  Successfully\nUsernamr: ${username}\nPassword: ${password}\nloginMessage: ${login-message}`);
-
-
 }
