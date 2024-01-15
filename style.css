@@ -73,7 +73,6 @@ body{
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -1.5s;
-
 }
 .borderline::after{
     content: '';
@@ -87,9 +86,7 @@ body{
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -4.5s;
-
 }
-
 
 @keyframes animate {
     0%
@@ -99,9 +96,7 @@ body{
     100%
     {
         transform: rotate(360deg);
-    }
-
-    
+    }   
 }
 
 .box form{
@@ -217,7 +212,6 @@ body{
 
 .box form button:active{
     opacity: 0.8;
-
 }
 
 .box form button:hover{
